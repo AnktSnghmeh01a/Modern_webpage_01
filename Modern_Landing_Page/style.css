@@ -1,0 +1,368 @@
+/* CSS RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+/* main section */
+
+#main{
+  width: 100%;
+  height: 100vh;
+}
+
+/* back-images part */
+#back{
+  width: 100%;
+  height: 100vh;
+}
+
+/* top portion (upper-layer) */
+#top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+}
+
+/* working-area */
+#workingarea{
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  max-width: 1920px;
+  position: relative;
+
+}
+
+
+/* navbar */
+/* navbar */
+/* navbar */
+/* navbar */
+/* navbar */
+
+#nav{
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+#nleft img{
+  height: 60px;
+  mix-blend-mode: multiply;
+ 
+}
+#nleft, #nright{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  
+
+}
+#nright{
+  margin-right: 20px;
+}
+#nleft a ,#nright a{
+  pointer-events: all;
+  text-decoration: none;
+  font-size: 19px;
+  color: #feffff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nleft a:hover{
+  text-decoration: underline;
+}
+#nright a:hover{
+  text-decoration: underline;
+}
+
+/* Hero section */
+/* Hero section */
+/* Hero section */
+/* Hero section */
+/* Hero section */
+/* Hero section */
+
+#hero{
+  width: 100%;
+  /* height: 100px; */
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translate(0%,-50%);
+}
+#heroleft{
+  min-width: 50%;
+  height: 100px;
+
+}
+
+#heroleft .elem{
+  position: relative;
+  height: 9vw;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+#heroleft .elem h1{
+  line-height: .9;
+  font-family: "kajiro";
+  color:#ffffff;
+  font-size: 10vw;
+  font-weight: 100;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+}
+
+#heroleft .elem h1:nth-child(1){
+  top: 0;
+}
+
+#heroleft button{
+  pointer-events: all;
+  font-size: 2.3vw;
+  padding: 0.5vw 3vw;
+  font-family: "kajiro";
+  margin-top: 10px;
+  cursor: pointer;
+}
+#heroleft button:hover{
+  font-size: 2.34vw;
+
+}
+#heroright{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #ffffff;
+}
+
+#heroright p{
+   font-size: 15px;
+   font-weight: 300;
+   text-align: right;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   line-height: 1.3;
+   font-family: 'Poppins', sans-serif;
+   
+}
+#heroright #imagediv{
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+   margin-bottom: 30px;
+}
+#imagediv img{
+  height: 100%;
+  width: 100%;
+ 
+  
+}
+
+
+/* back code(lower-layer)*/
+/* back code(lower-layer)*/
+/* back code(lower-layer)*/
+/* back code(lower-layer)*/
+
+#back img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Page 2nd (Explore) __-------> about portion*/
+/* Page 2nd (Explore) __-------> about portion*/
+/* Page 2nd (Explore) __-------> about portion*/
+/* Page 2nd (Explore) __-------> about portion*/
+
+#upperaboutpart{
+  display: flex;
+  flex-direction: column;
+  margin: 0 2em;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+  position: relative;
+
+}
+
+#about h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #396C72;
+  font-weight: 500;
+}
+#upperblock ,#lowerblock{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+#detailsdiv{
+  height: 44vh;
+  width: 30%;
+  margin-right:20px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagedivimg{
+  height: 35vh;
+  width: 100%;
+}
+
+#detailsdiv img{
+  height: 100%;
+  width: 100%;
+ filter: contrast(120%);
+ cursor: pointer;
+ border: 3px solid rgba(255,255,255, .2);
+}
+
+#detailsdiv a p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+  color: #ffffff;
+  font-size: 19px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+#detailsdiv a{
+  text-decoration: none;
+}
+
+#detailsdiv a p:hover{
+  
+  text-decoration: underline;
+  text-transform: uppercase;
+
+ 
+}
+
+#backaboutpart{
+  position: absolute;
+  left: 0;
+  height: 150vh;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+
+#backaboutpart video src{
+ height: 100%;
+ width: 100%;
+ background-position: center;
+}
+
+
+/* Footer section */
+/* Footer section */
+/* Footer section */
+/* Footer section */
+/* Footer section */
+/* Footer section */
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: #c7e6e6;
+}
+
+#socialaccounts{
+  display: flex;
+  gap: 20px;
+  font-size: 1.6em; 
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+ 
+#socialaccounts a:hover{
+ font-size: 1.12em;
+}
+
+#socialaccounts  a:nth-child(1){
+  color: #0072b1;
+}
+
+#socialaccounts  a:nth-child(2){
+  color:  #171515;
+  }
+  
+
+  #socialaccounts  a:nth-child(3){
+    color:  #7ac7e6e0;
+  }
+    
+#nav-links-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 13px 0;
+  
+}
+
+#nav-links-footer a{
+  text-decoration: none;
+  font-size: 1em;
+  color: #171515;
+}
+
+#nav-links-footer a:hover{
+  text-decoration: underline;
+}
+
+#footer p{
+  font-size: 1.1em;
+}
+
+#footer p i{
+  color: #ff0000;
+  
+}
+
+#footer p i:hover{
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
